@@ -1,0 +1,64 @@
+---
+title: "Final Presentation"
+subtitle: ""
+author: "JiaJingLiew"
+institute: ""
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+---
+background-image: url("https://images.unsplash.com/photo-1612093978633-baacc28ea3c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80")
+background-position: 50% 50%
+
+# 1.Introduction
+
+This is the last course of the Coursera Data Science Specialization which through Natural Language Processing to make a word prediction model. This presentation will tell the App making in two step.
+
+I.Building Model
+
+II.Making WordPrediction App
+
+---
+background-image: url("https://wallpaper.dog/large/20472521.jpg")
+background-position: 50% 50%
+
+# 2.Buliding Model
+
+In here, we will roughly talk about this step. We can follow three motion to build the model.
+
+
+1.Loading the packages and data, finding some information from data.
+
+2.Random sampling the data, making a remove words set, removing the words set
+
+3.Following the N-grams Model, make a words filter in n-grams.  
+[**N-Grams**](https://en.wikipedia.org/wiki/N-gram)
+
+---
+background-image: url("https://images.unsplash.com/photo-1521489871110-81dc5a61dbda?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1856&q=80")
+background-position: 50% 50%
+# 3.Making WordPrediction App
+
+Likely last slide, we simplify the talking about this. Usually, the simple web app is easily making from the Shiny.
+In shiny have input term(ui) and output term(serve). You must set your iuput term with some parameters such as title, value, word front size, etc. For output term, you need to adjust your output parameter, just like input term.
+
+[**SHINY**](https://shiny.rstudio.com/tutorial/)
+---
+
+# Thank You
+Here, Thanks Everyone For Watching This Presentation.  
+Hoping Your Have A Happy Day.  
+References  
+1.[**NLP**](https://www.techtarget.com/searchenterpriseai/definition/natural-language-processing-NLP)  
+2.[**Mark**](https://github.com/mark-blackmore/JHU-Data-Science-Capstone/blob/master/02_Task_Script.R)  
+[**Word Prediction Model App**](https://blackskyjason.shinyapps.io/WordPredictionApp/)
+
+```{r, echo=FALSE}
+knitr::include_graphics("https://c.tenor.com/6IvJ5J0fP4MAAAAC/dm4uz3-sakamoto.gif")
+```
