@@ -1,0 +1,13 @@
+name: WordPredictionApp
+title: WordPredictionApp
+username:
+account: blackskyjason
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 6415813
+bundleId: 5969907
+url: https://blackskyjason.shinyapps.io/WordPredictionApp/
+when: 1654135536.33914
+lastSyncTime: 1654135536.33914
+asMultiple: FALSE
+asStatic: FALSE
